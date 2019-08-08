@@ -1,0 +1,51 @@
+.navigation{
+    padding-top:30px;
+    padding-bottom:30px;
+    position:absolute;
+    top:0;
+    width:100%;
+    z-index:1;
+  }
+  
+  .navbar-right{
+    float:right;
+    padding-right:10%;
+  }
+  
+  .navbar-right a{
+    text-decoration:none;
+    padding:10px;
+    color: rgb(249, 249, 250);
+    font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-weight:900;
+  }
+  
+  .navbar-right a:hover{
+    color:gray;
+  }
+  .navbar-logo{
+    padding-left:10%;
+    font-family:Arial;
+    font-size:30px;
+    font-weight:bold;
+    text-decoration:none;
+    color:#fff; 
+  }
+  
+  .video-container {
+  z-index: -100;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  position:absolute;
+  top:0;
+  left:0;
+  }
+  
+  #video-bg{
+    width:100%;
+   
+  }
+  
+  
+  

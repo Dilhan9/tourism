@@ -1,0 +1,54 @@
+.container{
+    widows: 95%;
+    overflow:hidden;
+    margin:20px auto;
+
+    padding:20px 0px;
+}
+
+.container ul{
+   padding: 0px;
+   margin: opx;
+
+}
+
+.container ul li{
+    list-style:none;
+    float:left;
+    width:40%;
+    height: 350px;
+    margin:40px 30px 0px 40px;
+   
+}
+
+.container ul li:hover{
+    opacity:0.9;
+}
+
+@media screen and(max-width:1200px){
+.container ul li{
+    width:40%;
+    margin: 50px;
+}
+
+}
+
+@media screen and(max-width:750px){
+    .container{
+        width:100%;
+        padding: 0px;
+    }
+
+    .container ul li{
+        float:none;
+        width:90%;
+        margin: 40px auto;
+    }
+}
+
+.container ul li m{
+color:rgb(14, 216, 138);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}

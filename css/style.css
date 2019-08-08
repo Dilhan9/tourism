@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* ---------------------video header-------------------- */
+
+#myVideo {
+	width: 100%;
+}
+/* -----------------------welcome----------------------- */
+
+.header-overlay {
+	position: absolute;
+	top: 0px;
+	
+	align-content: center;
+	opacity: 0.80;
+	color: rgba(255,255,255,1.00);
+	
+
+	
+
+}
+.header-content{
+	
+	height: 200px;
+	transition: 1s;
+	text-align: center;
+	background:rgba(181,181,181,0.37)
+
+}
+h1{
+	color:rgb(240, 242, 243);
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 50px;
+}
+
+.btn-outline-success{
+	border-width: 3px;
+	color: aliceblue;
+}
+
+/* ---------------------nav bar------------------- */
+
+.navbar{
+	text-transform: uppercase;
+	
+	font-size: 1rem;
+	letter-spacing: .1rem;
+	transition: .7s;
+	background: transparent;
+	
+}
+.navbar-nav li{
+	padding-right: .7rem;
+	
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: white;
+	padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+	color:rgba(78,74,74,1.00);
+}
+/*----------tab--------------*/
+.tab-item {
+	background-color: rgb(6, 150, 247);
+}
+.tab-link {
+	color: rgba(255,255,255,1.00);
+	transition: 0.4s;
+}
+.tab-link:hover {
+	color: rgba(0,0,0,1.00);
+}
+
+.tab-link:active {
+	color: rgba(255,0,4,1.00);
+}
+.tab-content {
+	margin-left: 60px;
+	margin-right: 40px;
+}
+.tab-pane {
+	border: thin solid rgba(151,145,145,1.00);
+}
+
+.nav-tabs {
+	margin-left: 100px;
+}
+.tb-img{
+	width:100%;
+	float:left;
+	height: 160px;
+}
+.name{
+	
+	text-align: center;
+	
+}
+
+/*-------------best place-----------*/
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+	margin: 0;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.header {
+  text-align: center;
+  padding: 32px;
+}
+.container {
+  position: relative;
+ 
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+	margin: 0px;
+}
+
+.text {
+  color:gainsboro;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*----------- hotel------------- */
+
+.hotels{
+	margin: 5%;
+	
+}
+
+.inner img{
+	transition: all 1.5s ease;
+}
+.inner:hover img{
+	transform: scale(1.5);
+}
+.carousel-control-prev-icon {
+    background-image: url("img/064c807e9e.png");
+	width: 50px;
+	height: 50px;
+}
+.carousel-control-next-icon {
+    background-image: url("img/130884.png");
+	width: 50px;
+	height: 50px;
+}
+
+/*----------------map-----------------*/
+
+.mapouter{
+	position: relative;
+	text-align: right;
+	height: 600px;
+	width: 400px;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	margin-top: 20px;
+	-webkit-box-shadow: 10px 10px 10px rgba(164,164,164,1.00);
+	box-shadow: 10px 10px 10px rgba(164,164,164,1.00);
+}
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	height:600px;
+	width:400px;
+}
